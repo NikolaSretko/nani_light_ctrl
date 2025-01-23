@@ -2,7 +2,8 @@ import fs from 'fs';
 import path from 'path';
 
 // Hier den korrekten Musikpfad auf deinem Raspberry Pi angeben
-const MUSIC_DIR = '/home/admin/Musik';
+const MUSIC_DIR = '/mnt/MUSIK';
+
 
 // Funktion zur Überprüfung, ob der Pfad korrekt ist
     const verifyMusicFolder = () => {
